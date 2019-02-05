@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script type="text/javascript" src="main.js"></script>
+</head>
+<body>
+	<div id="container">
+	  <h1>Pomodoro Clock</h1>
+	  <div id="ajuster">
+	    <div id="break">
+	      <h3 id="break-label">Break Length</h3>
+	      <img class="arrow" id="break-increment" src="https://i.ibb.co/jrGS912/arrow-up-icon-1035475.png" alt="raise">
+	      <h4 id="break-length">5</h4>
+	      <img class="arrow" id="break-decrement" src="https://image.flaticon.com/icons/svg/32/32195.svg" alt="decrease">
+	    </div>
+	    <div id="session">
+	      <h3 id="session-label">Session Length</h3>
+	      <img class="arrow" id="session-increment" src="https://i.ibb.co/jrGS912/arrow-up-icon-1035475.png" alt="raise">
+	      <h4 id="session-length">25</h4>
+	      <img class="arrow" id="session-decrement" src="https://image.flaticon.com/icons/svg/32/32195.svg" alt="decrease">
+	    </div>
+	  </div>
+	  <div id="timer">
+	    <h3 id="timer-label">Session</h3>
+	    <h2 id="time-left">25:00</h2>
+	    <img class="button" id="start_stop" src="https://image.flaticon.com/icons/png/512/27/27185.png" alt="play or pause">
+	    <img class="button" id="reset" src="http://cdn.onlinewebfonts.com/svg/img_440194.png">
+	  </div>
+	</div>
+<audio id="beep" src="https://sampleswap.org/samples-ghost/SFX%20and%20UNUSUAL%20SOUNDS/ELECTRO%20and%20SYNTHETIC/192[kb]watch_alarm.aif.mp3"></audio>
+</body>
+</html>
